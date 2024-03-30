@@ -99,23 +99,26 @@ aside {
   transition: color 0.2s;
 }
 
-aside ul {
+aside nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
   margin-top: 80px;
 }
 
-aside ul li {
+aside nav ul li {
   list-style: none;
   padding: 10px 0 0 20px;
 }
 
-aside ul li a {
+aside nav ul li a {
   text-decoration: none;
   cursor: pointer;
   user-select: none;
   transition: color 0.2s;
 }
 
-aside ul li a:hover,
+aside nav ul li a:hover,
 .close-btn i:hover {
   color: #c4a86b;
 }
@@ -133,7 +136,7 @@ aside ul li a:hover,
 }
 
 @media screen and (max-width: 934px) {
-  nav ul {
+  header nav ul {
     gap: 50px;
   }
 }
@@ -143,19 +146,19 @@ aside ul li a:hover,
     padding-right: 30px;
   }
 
-  nav ul {
+  header nav ul {
     gap: 40px;
   }
 }
 
 @media screen and (max-width: 818px) {
-  nav ul {
+  header nav ul {
     gap: 30px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  nav ul {
+  header nav ul {
     gap: 25px;
   }
 }
@@ -165,7 +168,7 @@ aside ul li a:hover,
     padding: 0 40px;
   }
 
-  nav {
+  header nav {
     display: none;
     visibility: hidden;
   }
