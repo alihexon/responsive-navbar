@@ -14,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 80px;
+  padding: 0 40px;
 }
 
 .logo {
@@ -142,10 +142,6 @@ aside nav ul li a:hover,
 }
 
 @media screen and (max-width: 690px) {
-  header {
-    padding: 0 40px;
-  }
-
   header nav {
     display: none;
     visibility: hidden;
