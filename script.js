@@ -1,6 +1,6 @@
-const hamburgerElement = document.querySelector('.hamburger');
-const hamburgerPopup = document.querySelector('.h-popup');
-const hamburgerPopupOverlay = document.querySelector('.h-popup-overlay');
+const hamburgerElement = document.querySelector('.menu-icon');
+const hamburgerPopup = document.querySelector('.js-aside');
+const hamburgerPopupOverlay = document.querySelector('.aside-overlay');
 const closeButton = document.querySelector('.close-btn');
 
 function openPopup() {
