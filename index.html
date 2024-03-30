@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="style.css">
-  <title>Responsive Navbar</title>
-</head>
-<body>
-  <header>
-    <div class="logo">hexoN</div>
-    
-    <nav>
-      <ul>
-        <li><a href="#" class="current">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <button class="hamburger">
-      <i class="bx bx-menu"></i>
-    </button>
-    <div class="h-popup-overlay"></div>
-    <div class="h-popup">
-      <button class="close-btn">
-        <i class="bx bx-x"></i>
-      </button>
-      <ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">hexoN</h2>
+      <nav>
+        <ul>
           <li><a href="#" class="current">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+        </ul>
+        <button class="menu-icon"><i class="bx bx-menu"></i></button>
+        <div class="aside-overlay"></div>
+        <aside class="js-aside">
+          <button class="close-btn">
+            <i class="bx bx-x"></i>
+          </button>
+          <ul>
+            <li><a href="#" class="current">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </aside>
+      </nav>
     </header>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
